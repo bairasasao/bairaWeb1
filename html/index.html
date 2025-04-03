@@ -4,175 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tourist Spots in Region 9</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(to right, #2c3e50, #34495e);
-            color: white;
-            text-align: center;
-            padding: 50px 0;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            position: relative;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 3.5rem;
-            font-weight: 600;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-        }
-
-        .container {
-            width: 85%;
-            margin: 40px auto;
-            padding: 30px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .intro-text {
-            color: #34495e;
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            text-align: center;
-            font-style: italic;
-        }
-
-        h2 {
-            font-size: 2.5rem;
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 40px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .tourist-list {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            justify-items: center;
-        }
-
-        .tourist-spot {
-            background-color: #ecf0f1;
-            padding: 20px;
-            border-radius: 12px;
-            transition: all 0.3s ease-in-out;
-            text-align: center;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .tourist-spot:hover {
-            background-color: #bdc3c7;
-            transform: translateY(-8px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .tourist-spot img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 8px;
-            transition: transform 0.3s ease;
-        }
-
-        .tourist-spot:hover img {
-            transform: scale(1.05);
-        }
-
-        .tourist-spot h3 {
-            font-size: 1.6rem;
-            color: #2c3e50;
-            margin-top: 15px;
-            text-transform: capitalize;
-            font-weight: 500;
-            letter-spacing: 0.5px;
-            transition: color 0.3s ease;
-        }
-
-        .tourist-spot h3:hover {
-            color: #e74c3c;
-        }
-
-        .tourist-spot p {
-            font-size: 1rem;
-            color: #7f8c8d;
-            margin-top: 10px;
-        }
-
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 1rem;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        #myBtn {
-            display: none;
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            z-index: 99;
-            background-color: #2c3e50;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            padding: 20px;
-            cursor: pointer;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            font-size: 1.8rem;
-        }
-
-        #myBtn:hover {
-            background-color: #34495e;
-            transform: scale(1.1);
-        }
-
-        @media (max-width: 768px) {
-            .tourist-list {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .tourist-list {
-                grid-template-columns: 1fr;
-            }
-
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            h2 {
-                font-size: 2rem;
-            }
-
-            footer {
-                font-size: 0.85rem;
-            }
-        }
-
-    </style>
+    
+    <link rel="stylesheet" href="..css/styles.css">
 </head>
 <body>
     
@@ -188,7 +21,6 @@
 
         <h2>Discover the Beauty of Region 9</h2>
         <div class="tourist-list">
-            <!-- Tourist Spots -->
             <div class="tourist-spot">
                 <img src="pink.jpg" alt="Sta. Cruz Island">
                 <h3>Sta. Cruz Island (Zamboanga City)</h3>
@@ -204,7 +36,7 @@
                 <h3>Pasonanca Natural Park (Zamboanga City)</h3>
                 <p>Home to over 600 species of trees, this natural park is a peaceful retreat and a sanctuary for wildlife lovers.</p>
             </div>
-            <!-- Add more spots as required -->
+            <!-- Add the rest of the content as it is... -->
         </div>
 
         <p class="intro-text">
